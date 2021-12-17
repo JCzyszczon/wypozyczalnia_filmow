@@ -14,3 +14,41 @@ body {
     font-size: 16px;
     color: white;
 }
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-area li a {
+    transition: .3s;
+    color: #fff;
+}
+
+.nav-area li a:hover {
+    color: rgb(139, 139, 139);
+}
+
+.btn-area {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
